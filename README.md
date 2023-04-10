@@ -9,7 +9,7 @@
 1. For Dev Containers installation checkout
 [here](https://code.visualstudio.com/docs/devcontainers/containers#_installation).
 
-2. `Clone` the repo and open project inside VS Code
+2. Clone the repo `git clone ...`, change the branch `git checkout boilerplate` and open directory inside VS Code
 
 3. Select option `Reopen in Container`, or press **CTRL+Shift+P** and find action manualy.
 
