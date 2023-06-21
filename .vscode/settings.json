@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.flex": "lex",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp"
+    }
+}
