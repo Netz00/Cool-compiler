@@ -4,7 +4,7 @@ _program
   _class
     Main
     IO
-    "neg.test"
+    "neg.cl"
     (
     #2
     _attr

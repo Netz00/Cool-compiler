@@ -89,9 +89,9 @@ int main() {
 		return EXIT_FAILURE;
 	}
 	
-	int nofiles=1;
+	int nofiles=0;
 	int nok=0;
-	cout << endl << "ERRORS IN:" << endl;
+	cout << endl << "REPORT:" << endl;
 // za svaku testnu datoteku	
 	for(auto it : files) {
 		nofiles++;
@@ -128,16 +128,7 @@ int main() {
 		getline(out, str3);
 		getline(myout, mystr4);
 		getline(out, str4);
-/*		
-		cout << "#1:" << str1 << endl;
-		cout << "#2:" << str2 << endl;
-		cout << "#3:" << str3 << endl;
-		cout << "#4:" << str4 << endl;
-		cout << "#1:" << mystr1 << endl;
-		cout << "#2:" << mystr2 << endl;
-		cout << "#3:" << mystr3 << endl;
-		cout << "#4:" << mystr4 << endl;
-*/
+
 // je li datoteka ispravna		
 		bool ok = true;
 		do {
@@ -172,24 +163,15 @@ int main() {
 			str3 = str4;
 			getline(myout, mystr4);
 			getline(out, str4);
-/*
-		cout << endl;
-		cout << "#1:" << str1 << endl;
-		cout << "#2:" << str2 << endl;
-		cout << "#3:" << str3 << endl;
-		cout << "#4:" << str4 << endl;
-		cout << "#1:" << mystr1 << endl;
-		cout << "#2:" << mystr2 << endl;
-		cout << "#3:" << mystr3 << endl;
-		cout << "#4:" << mystr4 << endl;
-		*/
+
 		} while(myout || !mystr1.empty());
 // je li izlazna datoteka ispravna		
 		if(ok) {
+			cout << "           ok #"<< nofiles <<" : " << it << endl;
 			nok++;
 		} else {
 // ispisi redni broj i ime datoteke	
-			cout << "    test file #"<< nofiles <<" : " << it << endl;
+			cout << "        error #"<< nofiles <<" : " << it << endl;
 		} 
 		
 		
@@ -197,6 +179,6 @@ int main() {
 		out.close();
 		diff.close();
 	}	
-	cout << "_____________________________" << endl << "Grade: " << nok << "/" << --nofiles << endl;
+	cout << "_____________________________" << endl << "Grade: " << nok << "/" << nofiles << endl;
 	return 0;
 }

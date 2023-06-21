@@ -4,7 +4,7 @@ _program
   _class
     Main
     IO
-    "letnoinit.test"
+    "letnoinit.cl"
     (
     #4
     _method

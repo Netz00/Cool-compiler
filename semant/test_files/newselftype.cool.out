@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "newselftype.test"
+    "newselftype.cl"
     (
     #3
     _attr
@@ -44,7 +44,7 @@ _program
   _class
     Main
     Object
-    "newselftype.test"
+    "newselftype.cl"
     (
     #8
     _method

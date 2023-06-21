@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "subtypemethodreturn.test"
+    "subtypemethodreturn.cl"
     (
     #7
     _method
@@ -44,7 +44,7 @@ _program
   _class
     B
     A
-    "subtypemethodreturn.test"
+    "subtypemethodreturn.cl"
     (
     #15
     _method
@@ -59,7 +59,7 @@ _program
   _class
     Main
     Object
-    "subtypemethodreturn.test"
+    "subtypemethodreturn.cl"
     (
     #19
     _method

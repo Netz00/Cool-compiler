@@ -4,7 +4,7 @@ _program
   _class
     Main
     IO
-    "isvoid.test"
+    "isvoid.cl"
     (
     #2
     _attr

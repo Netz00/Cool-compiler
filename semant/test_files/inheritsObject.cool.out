@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "inheritsObject.test"
+    "inheritsObject.cl"
     (
     #3
     _attr
@@ -26,7 +26,7 @@ _program
   _class
     B
     Object
-    "inheritsObject.test"
+    "inheritsObject.cl"
     (
     #13
     _attr
@@ -40,7 +40,7 @@ _program
   _class
     Main
     Object
-    "inheritsObject.test"
+    "inheritsObject.cl"
     (
     #17
     _method

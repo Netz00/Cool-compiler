@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "basic.test"
+    "basic.cl"
     (
     #3
     _method

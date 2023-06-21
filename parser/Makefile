@@ -6,7 +6,7 @@
 # -I dodaje putanju do headera
 
 
-CFLAGS= -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -DDEBUG -I.
+CFLAGS= -g -Wall -Wno-unused -Wno-deprecated -Wno-write-strings -Wno-nonnull-compare -Wno-register -Wno-free-nonheap-object -DDEBUG -I.
 
 .PHONY: parser
 .PHONY: parser_test

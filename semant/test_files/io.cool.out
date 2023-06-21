@@ -4,7 +4,7 @@ _program
   _class
     Main
     IO
-    "io.test"
+    "io.cl"
     (
     #2
     _attr

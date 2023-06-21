@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "basicclassestree.test"
+    "basicclassestree.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "basicclassestree.test"
+    "basicclassestree.cl"
     (
     #4
     _attr

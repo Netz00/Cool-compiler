@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "simplearith.test"
+    "simplearith.cl"
     (
     #2
     _method

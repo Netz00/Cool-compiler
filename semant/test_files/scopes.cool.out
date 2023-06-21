@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "scopes.test"
+    "scopes.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "scopes.test"
+    "scopes.cl"
     (
     #4
     _attr

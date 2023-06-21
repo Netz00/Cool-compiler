@@ -4,7 +4,7 @@ _program
   _class
     List
     Object
-    "list.cl.test"
+    "list.cl.cl"
     (
     #29
     _method
@@ -87,7 +87,7 @@ _program
   _class
     Cons
     List
-    "list.cl.test"
+    "list.cl.cl"
     (
     #72
     _attr
@@ -167,7 +167,7 @@ _program
   _class
     Main
     IO
-    "list.cl.test"
+    "list.cl.cl"
     (
     #102
     _attr

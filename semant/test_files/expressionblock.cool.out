@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "expressionblock.test"
+    "expressionblock.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "expressionblock.test"
+    "expressionblock.cl"
     (
     #4
     _method

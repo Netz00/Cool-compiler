@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "objectdispatchabort.test"
+    "objectdispatchabort.cl"
     (
     #3
     _method
@@ -25,7 +25,7 @@ _program
   _class
     Main
     Object
-    "objectdispatchabort.test"
+    "objectdispatchabort.cl"
     (
     #6
     _method

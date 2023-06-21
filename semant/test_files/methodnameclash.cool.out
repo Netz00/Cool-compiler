@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "methodnameclash.test"
+    "methodnameclash.cl"
     (
     #1
     _attr
@@ -25,7 +25,7 @@ _program
   _class
     L
     A
-    "methodnameclash.test"
+    "methodnameclash.cl"
     (
     #3
     _method
@@ -40,7 +40,7 @@ _program
   _class
     R
     A
-    "methodnameclash.test"
+    "methodnameclash.cl"
     (
     #4
     _method
@@ -55,7 +55,7 @@ _program
   _class
     Main
     Object
-    "methodnameclash.test"
+    "methodnameclash.cl"
     (
     #6
     _method

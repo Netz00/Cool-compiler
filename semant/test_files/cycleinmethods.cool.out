@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "cycleinmethods.test"
+    "cycleinmethods.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "cycleinmethods.test"
+    "cycleinmethods.cl"
     (
     #4
     _method

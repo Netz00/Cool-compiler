@@ -43,9 +43,9 @@ int main() {
 		return EXIT_FAILURE;
 	}
 	
-	int nofiles=1;
+	int nofiles=0;
 	int nok=0;
-	cout << endl << "ERRORS IN:" << endl;
+	cout << endl << "REPORT:" << endl;
 // za svaku testnu datoteku	
 	for(auto it : files) {
 		nofiles++;
@@ -89,9 +89,9 @@ int main() {
 // usporedjujem			
 			if(mystr!=str) {
 				ok = false;
-				diff << "error in line# " << lineno << endl;
-				diff << "     lexed as: " << mystr << endl;
-				diff << "    should be: " << str << endl;
+				diff << "error #" << lineno << endl;
+				diff << "lexed as:  " << mystr << endl;
+				diff << "should be: " << str << endl << endl;
 			}
 			lineno++;
 			getline(myout, mystr);
@@ -99,15 +99,17 @@ int main() {
 		}
 // je li izlazna datoteka ispravna		
 		if(ok) {
+			cout << "           ok #"<< nofiles <<" : " << it << endl;
+
 			nok++;
 		} else {
 // ispisi redni broj i ime datoteke	
-			cout << "    test file #"<< nofiles <<" : " << it << endl;
+			cout << "        error #"<< nofiles <<" : " << it << endl;
 		}
 		myout.close();
 		out.close();
 		diff.close();
 	}	
-	cout << "_____________________________" << endl << "Grade: " << nok << "/" << --nofiles << endl;
+	cout << "_____________________________" << endl << "Grade: " << nok << "/" << nofiles << endl;
 	return 0;
 }

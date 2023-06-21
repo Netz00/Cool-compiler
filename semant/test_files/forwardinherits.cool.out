@@ -4,7 +4,7 @@ _program
   _class
     A
     B
-    "forwardinherits.test"
+    "forwardinherits.cl"
     (
     #3
     _attr
@@ -18,7 +18,7 @@ _program
   _class
     B
     Object
-    "forwardinherits.test"
+    "forwardinherits.cl"
     (
     #9
     _attr
@@ -32,7 +32,7 @@ _program
   _class
     Main
     Object
-    "forwardinherits.test"
+    "forwardinherits.cl"
     (
     #12
     _method

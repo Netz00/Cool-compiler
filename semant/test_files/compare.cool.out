@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "compare.test"
+    "compare.cl"
     (
     #1
     _method
@@ -19,21 +19,21 @@ _program
   _class
     A
     Object
-    "compare.test"
+    "compare.cl"
     (
     )
   #4
   _class
     B
     Object
-    "compare.test"
+    "compare.cl"
     (
     )
   #12
   _class
     C
     Object
-    "compare.test"
+    "compare.cl"
     (
     #6
     _attr

@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "stringtest.test"
+    "stringtest.cl"
     (
     #6
     _method

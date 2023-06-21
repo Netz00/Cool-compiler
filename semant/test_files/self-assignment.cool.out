@@ -1,2 +1,2 @@
-self-assignment.test:5: Cannot assign to 'self'.
+self-assignment.cl:5: Cannot assign to 'self'.
 Compilation halted due to static semantic errors.

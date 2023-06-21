@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "dispatch.test"
+    "dispatch.cl"
     (
     #2
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "dispatch.test"
+    "dispatch.cl"
     (
     #8
     _method
@@ -50,7 +50,7 @@ _program
   _class
     B
     A
-    "dispatch.test"
+    "dispatch.cl"
     (
     #17
     _method

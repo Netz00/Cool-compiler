@@ -4,7 +4,7 @@ _program
   _class
     Main
     IO
-    "assignment.test"
+    "assignment.cl"
     (
     #2
     _attr
@@ -79,7 +79,7 @@ _program
   _class
     Foo
     Object
-    "assignment.test"
+    "assignment.cl"
     (
     #11
     _attr

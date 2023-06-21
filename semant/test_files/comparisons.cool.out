@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "comparisons.test"
+    "comparisons.cl"
     (
     #2
     _method
@@ -51,7 +51,7 @@ _program
   _class
     Main
     Object
-    "comparisons.test"
+    "comparisons.cl"
     (
     #5
     _method

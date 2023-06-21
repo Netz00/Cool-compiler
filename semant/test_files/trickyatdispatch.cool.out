@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "trickyatdispatch.test"
+    "trickyatdispatch.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "trickyatdispatch.test"
+    "trickyatdispatch.cl"
     (
     #4
     _method
@@ -34,7 +34,7 @@ _program
   _class
     B
     A
-    "trickyatdispatch.test"
+    "trickyatdispatch.cl"
     (
     #8
     _method
@@ -49,7 +49,7 @@ _program
   _class
     C
     Object
-    "trickyatdispatch.test"
+    "trickyatdispatch.cl"
     (
     #12
     _attr

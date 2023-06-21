@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "overriderenamearg.test"
+    "overriderenamearg.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     D
     Object
-    "overriderenamearg.test"
+    "overriderenamearg.cl"
     (
     #4
     _method
@@ -38,7 +38,7 @@ _program
   _class
     E
     D
-    "overriderenamearg.test"
+    "overriderenamearg.cl"
     (
     #8
     _method

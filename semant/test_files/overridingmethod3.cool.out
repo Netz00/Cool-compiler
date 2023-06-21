@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "overridingmethod3.test"
+    "overridingmethod3.cl"
     (
     #1
     _method
@@ -19,7 +19,7 @@ _program
   _class
     A
     Object
-    "overridingmethod3.test"
+    "overridingmethod3.cl"
     (
     #4
     _method
@@ -34,7 +34,7 @@ _program
   _class
     B
     A
-    "overridingmethod3.test"
+    "overridingmethod3.cl"
     (
     #8
     _method

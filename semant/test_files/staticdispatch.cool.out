@@ -4,7 +4,7 @@ _program
   _class
     Main
     Object
-    "staticdispatch.test"
+    "staticdispatch.cl"
     (
     #2
     _attr
@@ -50,7 +50,7 @@ _program
   _class
     A
     Object
-    "staticdispatch.test"
+    "staticdispatch.cl"
     (
     #9
     _method
@@ -81,7 +81,7 @@ _program
   _class
     B
     A
-    "staticdispatch.test"
+    "staticdispatch.cl"
     (
     #17
     _method

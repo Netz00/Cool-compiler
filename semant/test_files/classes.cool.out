@@ -4,7 +4,7 @@ _program
   _class
     A
     Object
-    "classes.test"
+    "classes.cl"
     (
     #3
     _attr
@@ -46,7 +46,7 @@ _program
   _class
     B
     A
-    "classes.test"
+    "classes.cl"
     (
     #10
     _attr
@@ -88,7 +88,7 @@ _program
   _class
     C
     A
-    "classes.test"
+    "classes.cl"
     (
     #16
     _attr
@@ -122,7 +122,7 @@ _program
   _class
     Main
     Object
-    "classes.test"
+    "classes.cl"
     (
     #19
     _method
